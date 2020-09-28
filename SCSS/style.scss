@@ -1,0 +1,21 @@
+.col-12 {
+    background-color: gray;
+    height: 64px;
+    margin-top: 13px;
+}
+.red {
+    border: 1px solid red;
+    height: 64px;
+}
+
+
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1170px;
+    }
+}
